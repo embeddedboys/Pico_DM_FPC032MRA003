@@ -1,37 +1,34 @@
-<h1 align="center">
-    <span>项目模板</span>
-</h1>
+> <h1 align="center"> <strong>Pico DM FPC032MRA003</strong> </h1>
 
-![badge](https://img.shields.io/github/stars/embeddedboys/project_template)
-![badge](https://img.shields.io/github/repo-size/embeddedboys/project_template)
-![badge](https://img.shields.io/github/last-commit/embeddedboys/project_template/main)
-![badge](https://img.shields.io/github/commit-activity/t/embeddedboys/project_template)
-![badge](https://img.shields.io/github/license/embeddedboys/project_template)
-[![build docs](https://github.com/embeddedboys/project_template/actions/workflows/blank.yml/badge.svg?branch=main&event=push)](https://github.com/embeddedboys/project_template/actions/workflows/blank.yml)
-[![pages-build-deployment](https://github.com/embeddedboys/project_template/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/embeddedboys/project_template/actions/workflows/pages/pages-build-deployment)
+![badge](https://img.shields.io/github/stars/embeddedboys/Pico_DM_FPC032MRA003)
+![badge](https://img.shields.io/github/repo-size/embeddedboys/Pico_DM_FPC032MRA003)
+![badge](https://img.shields.io/github/last-commit/embeddedboys/Pico_DM_FPC032MRA003/main)
+![badge](https://img.shields.io/github/commit-activity/t/embeddedboys/Pico_DM_FPC032MRA003)
+![badge](https://img.shields.io/github/license/embeddedboys/Pico_DM_FPC032MRA003)
+[![build docs](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/blank.yml/badge.svg?branch=main&event=push)](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/blank.yml)
+[![pages-build-deployment](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/pages/pages-build-deployment)
 
-`项目官网` : [`https://embeddedboys.github.io/project_template`](https://embeddedboys.github.io/project_template)
 
-`文档链接` : [`https://embeddedboys.github.io/project_template`](https://embeddedboys.github.io/project_template)
+`文档链接` : [`https://embeddedboys.github.io/Pico_DM_FPC032MRA003`](https://embeddedboys.github.io/Pico_DM_FPC032MRA003)
 
-`项目仓库` : [`https://github.com/embeddedboys/project_template`](https://github.com/emmbeddedboys/project_template)
+`项目仓库` : [`https://github.com/embeddedboys/Pico_DM_FPC032MRA003`](https://github.com/emmbeddedboys/Pico_DM_FPC032MRA003)
 
 </br>
 
-> <h1 align="center">"Slogan"</h1>
+> <h1 align="center"><strong>"最具性价比的LVGL开发板之一"</strong></h1>
 
 <!-- 这里可以放项目的预览图 -->
 
-## <h2 align="center">简介</h2>
+<!-- ## <h2 align="center">简介</h2> -->
 
 <!-- 有关项目的简短介绍 -->
-> <h3 align="center" ><strong>project_template</strong></h3> 
+<!-- > <h3 align="center" ><strong>Pico_DM_FPC032MRA003</strong></h3> -->
 
-<h3 align="center">隆重的向大家介绍 project_template</h3>
+<h3 align="center">隆重的向大家介绍 <strong>Pico_DM_FPC032MRA003</strong>, 这是一款基于树莓派 Pico 核心板设计的一款低成本显示拓展板，分辨率为480x320，专用于学习、评估、开发LVGL或其他GUI应用。</h3>
 
-<div style="font-size:16px;">
-&nbsp&nbsp&nbsp&nbspproject_template 是 XXXXX
-</div>
+<!-- <div style="font-size:16px;">
+&nbsp&nbsp&nbsp&nbspPico_DM_FPC032MRA003 是 XXXXX
+</div> -->
 
 
 ## <h2 align="center">实机演示</h2>
@@ -45,17 +42,12 @@
 
 | 组件       | 型号                          |
 |------------|-------------------------------|
-| 系统       | linux、debian 11             |
-| CPU        | Allwinner F1C100s ARM9 750MHz |
-| 内存       | 32MB DDR1 204MHz              |
-| 存储       | 256MB Nand Flash              |
-| 屏幕       | 1.28英寸 16灰阶 OLED          |
-| 网络       | 2.4G WiFi AP                  |
-| 定位       | GP-02 GPS/BDS 模组            |
-| 控制       | 拨轮编码器、按键               |
-| 传感器     | AHT20                         |
-| 电池       | 800mAh                        |
-| 充放电管理 | TP4056、MOS                    |
+| 系统       | FreeRTOS SMP             |
+| 核心板        | 树莓派Pico |
+| 屏幕       | 3.2寸 R61581 非IPS      |
+| 触摸屏 | 3.2寸 TSC2007 电阻屏 |
+| 背光 | MP3302D |
+| GPIO | GP8 ~ GP15 |
 
 
 ## <h2 align="center">许可证</h2>

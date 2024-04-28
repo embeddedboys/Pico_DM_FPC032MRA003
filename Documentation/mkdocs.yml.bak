@@ -1,9 +1,9 @@
 site_name: Project Template
-site_url: https://embeddedboys.github.io/project_template/
+site_url: https://embeddedboys.github.io/Pico_DM_FPC032MRA003/
 site_description: offical site of Project Template
 site_author: nothing yet
 
-repo_url: https://github.com/embeddedboys/project_template
+repo_url: https://github.com/embeddedboys/Pico_DM_FPC032MRA003
 theme:
   name: null
   custom_dir: 'cinder'

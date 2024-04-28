@@ -2,17 +2,17 @@
     <span>Project Template</span>
 </h1>
 
-![badge](https://img.shields.io/github/stars/embeddedboys/project_template)
-![badge](https://img.shields.io/github/repo-size/embeddedboys/project_template)
-![badge](https://img.shields.io/github/last-commit/iotahydrae/project_template/main)
-![badge](https://img.shields.io/github/commit-activity/t/embeddedboys/project_template)
-![badge](https://img.shields.io/github/license/embeddedboys/project_template)
-[![build docs](https://github.com/embeddedboys/project_template/actions/workflows/blank.yml/badge.svg?branch=main&event=push)](https://github.com/embeddedboys/project_template/actions/workflows/blank.yml)
-[![pages-build-deployment](https://github.com/embeddedboys/project_template/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/embeddedboys/project_template/actions/workflows/pages/pages-build-deployment)
+![badge](https://img.shields.io/github/stars/embeddedboys/Pico_DM_FPC032MRA003)
+![badge](https://img.shields.io/github/repo-size/embeddedboys/Pico_DM_FPC032MRA003)
+![badge](https://img.shields.io/github/last-commit/iotahydrae/Pico_DM_FPC032MRA003/main)
+![badge](https://img.shields.io/github/commit-activity/t/embeddedboys/Pico_DM_FPC032MRA003)
+![badge](https://img.shields.io/github/license/embeddedboys/Pico_DM_FPC032MRA003)
+[![build docs](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/blank.yml/badge.svg?branch=main&event=push)](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/blank.yml)
+[![pages-build-deployment](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/pages/pages-build-deployment)
 
-`Wiki` : [`https://embeddedboys.github.io/project_template`](https://embeddedboys.github.io/project_template)
+`Wiki` : [`https://embeddedboys.github.io/Pico_DM_FPC032MRA003`](https://embeddedboys.github.io/Pico_DM_FPC032MRA003)
 
-`Repo` : [`https://github.com/embeddedboys/project_template`](https://github.com/emmbeddedboys/project_template)
+`Repo` : [`https://github.com/embeddedboys/Pico_DM_FPC032MRA003`](https://github.com/emmbeddedboys/Pico_DM_FPC032MRA003)
 
 </br>
 
@@ -20,12 +20,12 @@
 
 ## <h2 align="center">Introduction</h2>
 
-> <h3 align="center" ><strong>project_template</strong></h3> 
+> <h3 align="center" ><strong>Pico_DM_FPC032MRA003</strong></h3> 
 
-<h3 align="center">I'm glad to introduce you to project_template</h3>
+<h3 align="center">I'm glad to introduce you to Pico_DM_FPC032MRA003</h3>
 
 <div style="font-size:16px;">
-&nbsp&nbsp&nbsp&nbspproject_template is XXXXX
+&nbsp&nbsp&nbsp&nbspPico_DM_FPC032MRA003 is XXXXX
 </div>
 
 ## <h2 align="center">Demo</h2>

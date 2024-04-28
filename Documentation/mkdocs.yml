@@ -1,12 +1,12 @@
-site_name: project_template
-site_url: https://embeddedboys.github.io/project_template/
-repo_url: https://github.com/embeddedboys/project_template
+site_name: Pico_DM_FPC032MRA003
+site_url: https://embeddedboys.github.io/Pico_DM_FPC032MRA003/
+repo_url: https://github.com/embeddedboys/Pico_DM_FPC032MRA003
 edit_uri: main/Documentation/docs/
 
-site_description: Wiki of project_template
+site_description: Wiki of Pico_DM_FPC032MRA003
 site_author: embeddedboys developers
 
-copyright: Copyright © 2023 embeddedboys
+copyright: Copyright © 2024 embeddedboys
 
 theme:
   name: material
@@ -59,8 +59,8 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://embeddedboys.github.io/project_template/
-      name: project_template on Github
+      link: https://embeddedboys.github.io/Pico_DM_FPC032MRA003/
+      name: Pico_DM_FPC032MRA003 on Github
 
 extra_css:
   - stylesheets/extra.css
@@ -91,11 +91,11 @@ plugins:
           default: true
           name: 简体中文
           build: true
-          site_name: "project_template"
+          site_name: "Pico_DM_FPC032MRA003"
         - locale: en
           name: English
           build: true
-          site_name: "project_template"
+          site_name: "Pico_DM_FPC032MRA003"
           nav_translations:
             主页: Home
             快速上手: Getting started
