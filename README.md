@@ -33,6 +33,8 @@
 
 ## <h2 align="center">实机演示</h2>
 <!-- 快速简短的GIF玩法展示 -->
+<img src="assets/dm_fpc032mra003_1.png" alt="board image" /> </br>
+<img src="assets/dm_fpc032mra003_0.png" alt="board image" /> </br>
 <img src="assets/board.jpg" alt="board image" /> </br>
 
 > <p align="center">器件以实物为准</p>
