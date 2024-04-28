@@ -33,6 +33,7 @@
 
 ## <h2 align="center">实机演示</h2>
 <!-- 快速简短的GIF玩法展示 -->
+<img src="assets/board.jpg" alt="embeddedboys logo" /> </br>
 
 > <p align="center">器件以实物为准</p>
 
