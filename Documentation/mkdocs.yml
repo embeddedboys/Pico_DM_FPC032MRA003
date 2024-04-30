@@ -6,7 +6,7 @@ edit_uri: main/Documentation/docs/
 site_description: Wiki of Pico_DM_FPC032MRA003
 site_author: embeddedboys developers
 
-copyright: Copyright © 2024 embeddedboys
+copyright: Copyright © 2024 embeddedboys developers
 
 theme:
   name: material
@@ -45,15 +45,21 @@ theme:
 nav:
     - 主页: README.md
     - 快速上手:
-      - '从这里开始吧': getting-started/index.md
-    - 文档:
-      - '硬件': hardware/index.md
-      - '软件': software/index.md
+      - '版型介绍': get-started/example.md
+      - '准备事项': get-started/preparations.md
+      - '核心板的选择（必读）': get-started/core-board.md
+      - '固件烧录': get-started/firmware.md
+      - '串口调试': get-started/uart-debug.md
+    - 开发环境搭建:
+      - '说明': env-setup/example.md
+      - '安装依赖': env-setup/requirements.md
+      - '选择工程': env-setup/project.md
+      - '编译及配置': env-setup/build.md
+    - 常见问题: FAQ.md
     - 关于:
         - '开发人员名单': credits.md
         - '许可证': license.md
         - '更新说明': releasenote.md
-        - 'FAQs': FAQs.md
     - 致谢: thanks.md
 
 extra:
@@ -98,7 +104,7 @@ plugins:
           site_name: "Pico_DM_FPC032MRA003"
           nav_translations:
             主页: Home
-            快速上手: Getting started
+            快速上手: get started
             配件: Parts
             文档: Wiki
             硬件: Hardware
@@ -107,4 +113,5 @@ plugins:
             开发人员名单: Credits
             许可证: License
             更新说明: Release Note
+            常见问题: FAQ
             致谢: Thank

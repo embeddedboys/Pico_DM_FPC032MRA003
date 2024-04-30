@@ -1,3 +1,8 @@
+<!--
+ Copyright 2024 embeddedboys developers.
+ SPDX-License-Identifier: MIT
+-->
+
 # <h1 align="center">快速上手</h1>
 
 ## <h2>介绍</h2>
@@ -16,12 +21,8 @@
 
 ##  <h2 align="center">串口调试</h2>
 
-##  <h2 align="center">固件烧录</h2>
-
 ##  <h2 align="center">硬件资料</h2>
 
 ##  <h2 align="center">软件资料</h2>
 
 ##  <h2 align="center">配件说明</h2>
-
-##  <h2 align="center">常见问题</h2>
