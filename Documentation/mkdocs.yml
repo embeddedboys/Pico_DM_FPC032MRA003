@@ -73,6 +73,8 @@ extra_css:
 
 markdown_extensions:
   - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - attr_list
   - pymdownx.highlight:
       anchor_linenums: true

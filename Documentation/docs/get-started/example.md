@@ -18,44 +18,32 @@ seo:
   noindex: false # false (default) or true
 ---
 
-{{< figure src="images/dm-qd3503728-1.jpg" alt="" >}}
+## 关于本产品
 
-**Pico_DM_QD3503728** 是基于树莓派 Pico 设计的一款低成本显示拓展板，用来学习、评估、开发LVGL或其他GUI应用。 
+![image](../assets/dm_fpc032mra003_1.png)
 
-<mark>**我们使用了PIO模拟8080接口，来达到LCD的极限时序参数。**</mark>
+**Pico_DM_FPC032MRA003** 是基于树莓派 Pico 核心板设计的一款低成本显示拓展板，可用来学习、评估、开发LVGL或其他GUI应用。此拓展板同时引出了多个GPIO管脚，方便用户与其他器件通信。
 
-演示视频链接:
-[https://www.bilibili.com/video/BV1aD42177CE/](https://www.bilibili.com/video/BV1aD42177CE/)
+[演示视频](https://www.bilibili.com/video/BV18D421T7gM){ .md-button .md-button--primary }
 
 树莓派 RP2040 是树莓派的首款微控制器。它为微控制器领域带来了高性能，低成本和易于使用的标志性价值。
 
-{{< details "以下内容引用自树莓派官方介绍">}}
-With a large on-chip memory, symmetric dual-core processor complex, deterministic bus fabric, and rich peripheral set augmented with our unique Programmable I/O (PIO) subsystem, it provides professional users with unrivalled power and flexibility. 
+![image](../assets/rp2040.jpg)
 
-凭借巨大的片上内存、对称双核处理器、确定性总线结构和丰富的外设，以及我们独特的可编程I/O (PIO)子系统，它为专业用户提供了无与伦比的功能和灵活性。
+## 技术规格
 
-With detailed documentation, a polished MicroPython port, and a UF2 bootloader in ROM, it has the lowest possible barrier to entry for beginner and hobbyist users.
-
-有了详细的文档，一个精美的MicroPython端口，以及ROM中的UF2引导加载程序，它对初学者和爱好者用户来说具有最低的入门门槛。
-
-{{< /details >}}
-
-{{< figure src="images/rp2040.jpg" alt="" >}}
-
-
-## 产品参数
-
-| | Pico_DM_QD3503728 |
+| | Pico_DM_FPC032MRA003 |
 | --- | --- |
 | 芯片 | 树莓派 RP2040 |
 | 处理器 | 双核 ARM Cortex-M0 + @ 133MHz |
 | 内存 | 264 KB SRAM |
 | 闪存 | 最大 16MB |
-| 显示屏 | 3.5寸 TFT 480x320 16位8080 ILI9488 |
-| 触摸屏 | 3.5寸 FT6236U |
+| 显示屏 | 3.2寸 TFT 480x320 8位8080 R61581 |
+| 触摸屏 | 3.2寸 TSC2007 |
 
-{{< card-grid >}}
-  {{< link-card title="官方购买链接" href="https://item.taobao.com/item.htm?ft=t&id=776451474190&spm=a21dvs.23580594.0.0.52de3d0dccvs2X&skuId=5311045681719" >}}
-{{< /card-grid >}}
+[官方购买链接](https://gf.bilibili.com/item/detail/1105569098){ .md-button }
 
-{{< callout context="note" title="说明" icon="info-circle" >}} 默认配置不包括核心板，需自行准备，或选配 {{< /callout >}}
+!!! info 说明
+
+    默认配置不包括核心板，需自行准备或选配。
+
