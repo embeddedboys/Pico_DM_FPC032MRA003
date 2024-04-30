@@ -20,7 +20,9 @@ seo:
 
 ## 关于本产品
 
-![image](../assets/dm_fpc032mra003_1.png)
+<figure markdown="span">
+  ![Image title](../assets/dm_fpc032mra003_1.png){ loading=lazy }
+</figure>
 
 **Pico_DM_FPC032MRA003** 是基于树莓派 Pico 核心板设计的一款低成本显示拓展板，可用来学习、评估、开发LVGL或其他GUI应用。此拓展板同时引出了多个GPIO管脚，方便用户与其他器件通信。
 
@@ -28,7 +30,10 @@ seo:
 
 树莓派 RP2040 是树莓派的首款微控制器。它为微控制器领域带来了高性能，低成本和易于使用的标志性价值。
 
-![image](../assets/rp2040.jpg)
+<figure markdown="span">
+  ![Image title](../assets/rp2040.jpg){ loading=lazy }
+</figure>
+
 
 ## 技术规格
 
