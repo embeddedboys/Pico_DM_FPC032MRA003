@@ -22,53 +22,41 @@ seo:
 - 用户自行选择可增加灵活性
 - 规格不同，不一定符合用户需求
 
+!!! danger "危险"
 
-{{< callout context="danger" title="危险" icon="alert-octagon" >}}
-在选购Pico核心板时，一定要注意核心板的引脚分布是否与官方一致，**否则可能会损坏显示屏模组和核心板**
-{{< /callout >}}
+    在选购Pico核心板时，一定要注意核心板的引脚分布是否与官方一致，
+    否则可能会损坏显示屏模组和核心板。
 
 官方版本引脚分布图如下：
 
-{{< figure
-  src="images/pico-r3-pinout.png"
-  alt="（若图片过小可鼠标右键新标签页打开图片）"
-  caption="（若图片过小可鼠标右键新标签页打开图片）"
->}}
+<figure markdown="span">
+  ![Image title](../assets/pico-r3-pinout.png){ loading=lazy }
+  <figcaption>若图片过小可鼠标右键新标签页打开图</figcaption>
+</figure>
 
-{{<figure
-  src="images/pico.jpg"
-  caption="https://www.blendswap.com/blend/27180"
->}}
+<figure markdown="span">
+  ![Image title](../assets/pico.jpg){ width="300" loading=lazy }
+</figure>
 
 ## 核心板的焊接
 
 如果您自行准备核心板，那么在焊接排针的时候，应该以排针向下的方式焊接。
 
 在焊接核心板排针的时候，可能会因对齐问题导致排针焊歪，此时可以使用如下3D打印模型辅助：[pico-soldering-jig.stl](http://embeddedboys.com/uploads/pico-soldering-jig.stl)
-{{< figure
-  src="images/pico-soldering-jig.webp"
-  process="fill 480x270"
-  width="160"
-  sizes="75vw"
-  alt=""
-  caption=""
->}}
+
+<figure markdown="span">
+  ![Image title](../assets/pico-soldering-jig.webp){ width="480" loading=lazy }
+</figure>
 
 将排针放至孔中，再放上Pico，就像这样：
-{{< figure
-  src="images/pico-on-jig.jpg"
-  process="fill 480x270"
-  width="160"
-  sizes="75vw"
-  alt=""
-  caption=""
->}}
+<figure markdown="span">
+  ![Image title](../assets/pico-on-jig.jpg){ width="480" loading=lazy }
+</figure>
 然后就可以开始焊接啦
 
-{{< callout context="danger" title="危险" icon="alert-octagon" >}}
-不要将排针向上焊接的核心板安装到显示屏模组中！
-{{< /callout >}}
+!!! danger "危险"
 
+    不要将排针向上焊接的核心板安装到显示屏模组中！
 
 ## 核心板的安装与卸载
 
@@ -81,9 +69,9 @@ seo:
 
 在移除核心板时，建议使用IC起拔器，否则核心板两端受力不均会导致核心板的排针弯曲，在将其修正前无法插入模组中。
 
-{{< callout context="danger" title="危险" icon="alert-octagon" >}}
-错误的安装可能会损坏核心板和模组！
-{{< /callout >}}
+!!! danger "危险"
+
+    错误的安装可能会损坏核心板和模组！
 
 ## 核心板数据统计
 我们测试了市面上绝大多数品牌的 Pico 核心板并进行了统计，最终发现，有些板子甚至无法满足正常开发工作，且大概率是使用了劣质的Flash芯片所造成的，通常表现为复位后无法正常启动。
@@ -92,9 +80,10 @@ seo:
 
 下面我们将按照统一格式，根据推荐程度列出**经过测试**的核心板:
 
-{{< callout context="note" title="声明" icon="alert-octagon" >}}
-并非处于专业环境测试，数值仅供参考。
-{{< /callout >}}
+!!! info "说明"
+
+    并非专业测试，数值仅供参考。
+
 
 示例格式如下：
 
@@ -114,14 +103,11 @@ seo:
 
 ### 1. 官方版本
 
-除了接口是Micro USB，没有其他问题，如果手头上有这个的话，优先选择
-{{< figure
-  process="fill 480x270"
-  width="160"
-  sizes="75vw"
-  src="images/pico-board.png"
-  alt=""
->}}
+除了接口是Micro USB，没有其他问题。如果手头上有这个的话，优先选择。
+
+<figure markdown="span">
+  ![Image title](../assets/pico-board.png){ width="320" loading=lazy }
+</figure>
 
 
 | 测试项    |   数值  | 
@@ -131,11 +117,11 @@ seo:
 
 ### 2. 合宙 Pico 核心板
 
-9.9包邮的时候如果买过，可以用这个，稳定性仅次于官方。
-{{< figure
-  src="images/luatos-pico.png"
-  alt=""
->}}
+9.9包邮的时候如果买过，可以用这个，稳定性仅次于官方。 不过现在已经完全不推荐了，已经涨价到19.9元了。
+
+<figure markdown="span">
+  ![Image title](../assets/luatos-pico.png){ width="320" loading=lazy }
+</figure>
 
 | 测试项    |   数值  | 
 | --- | --- |
@@ -146,11 +132,9 @@ seo:
 
 这个核心板的成绩并不理想，如果不超频使用，还是可以考虑下的，毕竟板载了较多的东西。
 
-{{< figure
-  process="fill 480x270"
-  src="images/yd-rp2040.webp"
-  alt=""
->}}
+<figure markdown="span">
+  ![Image title](../assets/yd-rp2040.webp){ width="320" loading=lazy }
+</figure>
 
 | 测试项    |   数值  | 
 | --- | --- |
@@ -162,12 +146,9 @@ seo:
 
 稳定性跟YD-RP2040差不多，价格稍贵，颜值在线。
 
-{{< figure
-  process="fill 480x270"
-  src="images/wuming-pico.webp"
-  alt=""
->}}
-
+<figure markdown="span">
+  ![Image title](../assets/wuming-pico.webp){ width="320" loading=lazy }
+</figure>
 
 | 测试项    |   数值  | 
 | --- | --- |
@@ -178,11 +159,9 @@ seo:
 
 9.9包邮的性价比还是不错的，虽然可能会存在跟后者相同的问题，但是稳定性优于后者。
 
-{{< figure
-  process="fill 480x270"
-  src="images/pico-1.webp"
-  alt=""
->}}
+<figure markdown="span">
+  ![Image title](../assets/pico-1.webp){ width="320" loading=lazy }
+</figure>
 
 
 | 测试项    |   数值  | 
@@ -192,13 +171,11 @@ seo:
 
 ### 官方版本国产版2
 
-这个板子重复编程flash会发烫，然后过热期间rp2040无法正常启动，不排除是个体原因。
+这个板子重复编程flash会发烫，然后过热期间rp2040无法正常启动，不排除是个例。
 
-{{< figure
-  process="fill 480x270"
-  src="images/pico-2.webp"
-  alt=""
->}}
+<figure markdown="span">
+  ![Image title](../assets/pico-2.webp){ width="320" loading=lazy }
+</figure>
 
 
 | 测试项    |   数值  | 

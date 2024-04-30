@@ -43,7 +43,7 @@ seo:
 
 [官方购买链接](https://gf.bilibili.com/item/detail/1105569098){ .md-button }
 
-!!! info 说明
+!!! info "说明"
 
     默认配置不包括核心板，需自行准备或选配。
 
