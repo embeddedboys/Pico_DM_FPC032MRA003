@@ -9,9 +9,9 @@
 [![pages-build-deployment](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/embeddedboys/Pico_DM_FPC032MRA003/actions/workflows/pages/pages-build-deployment)
 
 
-`文档链接` : [`https://embeddedboys.github.io/Pico_DM_FPC032MRA003`](https://embeddedboys.github.io/Pico_DM_FPC032MRA003)
+`文档链接` : [`http://embeddedboys.com/Pico_DM_FPC032MRA003`](http://embeddedboys.com/Pico_DM_FPC032MRA003)
 
-`项目仓库` : [`https://github.com/embeddedboys/Pico_DM_FPC032MRA003`](https://github.com/emmbeddedboys/Pico_DM_FPC032MRA003)
+`项目仓库` : [`https://gitee.com/embeddedboys/pico_dm_fpc032mra003_freertos`](https://gitee.com/embeddedboys/pico_dm_fpc032mra003_freertos)
 
 </br>
 
