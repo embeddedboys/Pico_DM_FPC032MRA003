@@ -53,11 +53,16 @@ nav:
       - '核心板的选择（必读）': get-started/core-board.md
       - '固件烧录': get-started/firmware.md
       - '串口调试': get-started/uart-debug.md
-    - 开发环境搭建:
+    - 环境搭建:
       - '说明': env-setup/example.md
       - '安装依赖': env-setup/requirements.md
       - '选择工程': env-setup/project.md
       - '编译及配置': env-setup/build.md
+    - LVGL开发:
+      - '说明': develop/note.md
+      - 'C': develop/c.md
+      - 'MicroPython': develop/micropython.md
+      - '移植': develop/porting.md
     - 常见问题: FAQ.md
     - 关于:
         - '开发人员名单': credits.md
