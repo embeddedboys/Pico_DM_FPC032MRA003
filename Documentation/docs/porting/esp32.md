@@ -5,4 +5,3 @@
  https://opensource.org/licenses/MIT
 -->
 
-本章节将讨论LVGL开发相关的内容，例如使用C、MicroPython开发LVGL应用等。

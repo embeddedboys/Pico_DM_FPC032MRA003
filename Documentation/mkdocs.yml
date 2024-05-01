@@ -62,7 +62,11 @@ nav:
       - '说明': develop/note.md
       - 'C': develop/c.md
       - 'MicroPython': develop/micropython.md
-      - '移植': develop/porting.md
+    - 移植:
+      - '说明': porting/note.md
+      - 'Raspberry Pi Pico': porting/pico.md
+      - 'Linux': porting/linux.md
+      - 'ESP32': porting/esp32.md
     - 常见问题: FAQ.md
     - 关于:
         - '开发人员名单': credits.md
