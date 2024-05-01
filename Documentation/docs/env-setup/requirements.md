@@ -18,37 +18,21 @@ seo:
 
 ### 1. 安装前置依赖
 
-{{< tabs "install-sdk-requirements" >}}
-{{< tab "Ubuntu" >}}
-
-```bash {title="安装依赖"}
+```bash title="安装前置依赖"
 sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 ```
 
-{{< /tab >}}
-
-{{< tab "Fedora" >}}
-
-```shell
-```
-
-{{< /tab >}}
-{{< /tabs >}}
-
 ### 2. 下载 pico-sdk 源码
 
-{{< details "国内用户" >}}
+国内用户
 ```shell
 git clone https://gitee.com/embeddedboys/pico-sdk $HOME/pico-sdk
 ```
-{{< /details >}}
 
-
-{{< details "国外用户" >}}
+国外用户
 ```shell
 git clone https://github.com/raspberrypi/pico-sdk/ $HOME/pico-sdk
 ```
-{{< /details >}}
 
 -------------
 
@@ -75,5 +59,3 @@ source ~/.bashrc
 echo "export PICO_SDK_PATH=$HOME/pico-sdk" >> ~/.zshrc
 source ~/.zshrc
 ```
-
-{{< callout context="note" title="说明" icon="info-circle" >}} 假设当前使用的是 bash {{< /callout >}}
