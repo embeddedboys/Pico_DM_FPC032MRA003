@@ -26,6 +26,10 @@ git submodule update --init
 
 ### pico_dm_fpc032mra003_freertos
 
+!!! note "小贴士"
+
+    本工程基于[https://github.com/embeddedboys/pico_dm_8080_template](https://github.com/embeddedboys/pico_dm_8080_template)，这是一个基于树莓派Pico开发的针对于8080 TFT的通用型工程，只需要简单的配置，或轻量的代码开发，就能适配一个全新的组合。
+
 根目录结构
 ```shell
 CMakeLists.txt  # 根目录cmake配置
@@ -153,7 +157,7 @@ set(OVERCLOCK_ENABLED 0)    # 1: enable, 0: disable
 
 !!! danger "危险"
 
-    过度超频可能会导致核心板稳定性下降，但并不会对拓展版造成影响。
+    过度超频可能会导致核心板稳定性下降，**但并不会对本拓展板造成影响。**
 
     适当的超频可以达到更流畅的运行效果，用户自行承担其风险。
 
