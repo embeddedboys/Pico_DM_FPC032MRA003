@@ -67,6 +67,11 @@ nav:
       - 'Raspberry Pi Pico': porting/pico.md
       - 'Linux': porting/linux.md
       - 'ESP32': porting/esp32.md
+    - 硬件资料:
+      - '原理图': hardware/schematic.md
+      - 'PCB': hardware/pcb.md
+      - '芯片手册': hardware/datasheets.md
+      - '参考资料': hardware/reference.md
     - 常见问题: FAQ.md
     - 关于:
         - '开发人员名单': credits.md

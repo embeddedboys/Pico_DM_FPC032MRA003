@@ -92,3 +92,12 @@ openocd -f interface/cmsis-dap.cfg -c "adapter speed 5000" -f target/rp2040.cfg 
 !!! note
 
     大部分情况下，该方式速度并不会快于UF2方式，尤其是在您使用的`CMSIS-DAP`传输速度较慢的情况下。
+
+## 测试固件下载
+
+### v8.3
+
+---------------
+
+### v9
+[lv_demo_widgets](http://embeddedboys.com/uploads/fpc032mra003/lv_demo_widgets_v9.uf2){ .md-button }
