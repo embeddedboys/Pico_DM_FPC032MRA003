@@ -189,12 +189,15 @@ set(OVERCLOCK_PROFILE 1)
 ```cmake title="src/cmake/r61581.cmake"
 # LCD Pins for 8080 interface
 set(LCD_PIN_DB_BASE  0)  # 8080 LCD 数据总线第0脚
-set(LCD_PIN_DB_COUNT 16) # 8080 LCD 数据总线宽度
-set(LCD_PIN_CS  18)  # 8080 LCD 片选引脚
+set(LCD_PIN_DB_COUNT 8) # 8080 LCD 数据总线宽度
+set(LCD_PIN_CS  29)  # 8080 LCD 片选引脚
 set(LCD_PIN_WR  19)  # 8080 LCD 写信号引脚
 set(LCD_PIN_RS  20)  # 8080 LCD 数据/寄存器选择引脚
-set(LCD_PIN_RST 22)  # 8080 LCD 复位引脚
+set(LCD_PIN_RD  20)  # 8080 LCD 读信号引脚
+set(LCD_PIN_RST 18)  # 8080 LCD 复位引脚
 set(LCD_PIN_BL  28)  # 8080 LCD 背光引脚
+set(LCD_HOR_RES 480)    # LCD 横向最大分辨率
+set(LCD_VER_RES 320)    # LCD 纵向最大分辨率
 set(DISP_OVER_PIO 1) # LCD驱动模式 1: PIO, 0: GPIO
 set(PIO_USE_DMA   1)   # 是否启用DMA 1: use DMA, 0: not use DMA
 set(I80_BUS_WR_CLK_KHZ 40000) # 8080 LCD 写信号频率
@@ -205,8 +208,8 @@ set(I80_BUS_WR_CLK_KHZ 40000) # 8080 LCD 写信号频率
 # LCD driver type
 set(LCD_DRV_USE_ST7789  0)
 set(LCD_DRV_USE_ILI9488 0)
-set(LCD_DRV_USE_ILI9806 1)
-set(LCD_DRV_USE_R61581  0)
+set(LCD_DRV_USE_ILI9806 0)
+set(LCD_DRV_USE_R61581  1)  # 启用R61581显示驱动
 set(LCD_DRV_USE_ST6201  0)
 set(LCD_DRV_USE_1P5623  0)
 ```
@@ -216,7 +219,7 @@ set(LCD_DRV_USE_1P5623  0)
 # Input device driver type
 set(INDEV_DRV_USE_FT6236  0)
 set(INDEV_DRV_USE_NS2009  0)
-set(INDEV_DRV_USE_TSC2007 1)
+set(INDEV_DRV_USE_TSC2007 1)    # 启用TSC2007显示驱动
 set(INDEV_DRV_USE_GT911   0)
 ```
 
