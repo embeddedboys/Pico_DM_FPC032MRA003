@@ -311,7 +311,7 @@ bash <(wget -O - https://thonny.org/installer-for-linux)
             print("CPU freq : ", machine.freq() / 1000000, "MHz")
 
         def init_gui(self):
-            import r61851 as tft
+            import r61581 as tft
             import tsc2007 as tp
 
             hres = 480
