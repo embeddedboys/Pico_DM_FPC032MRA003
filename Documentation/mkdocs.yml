@@ -73,6 +73,7 @@ nav:
       - 'BOM': hardware/bom.md
       - '芯片手册': hardware/datasheets.md
       - '参考资料': hardware/reference.md
+      - 'RP2040相关': hardware/rp2040.md
     - 常见问题: FAQ.md
     - 关于:
         - '开发人员名单': credits.md
