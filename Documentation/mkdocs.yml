@@ -70,6 +70,7 @@ nav:
     - 硬件资料:
       - '原理图': hardware/schematic.md
       - 'PCB': hardware/pcb.md
+      - 'BOM': hardware/bom.md
       - '芯片手册': hardware/datasheets.md
       - '参考资料': hardware/reference.md
     - 常见问题: FAQ.md

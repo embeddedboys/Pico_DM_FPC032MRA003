@@ -261,7 +261,7 @@ set(LCD_PIN_DB_COUNT 8) # 8080 LCD 数据总线宽度
 set(LCD_PIN_CS  29)  # 8080 LCD 片选引脚
 set(LCD_PIN_WR  19)  # 8080 LCD 写信号引脚
 set(LCD_PIN_RS  20)  # 8080 LCD 数据/寄存器选择引脚
-set(LCD_PIN_RD  20)  # 8080 LCD 读信号引脚
+set(LCD_PIN_RD  29)  # 8080 LCD 读信号引脚
 set(LCD_PIN_RST 18)  # 8080 LCD 复位引脚
 set(LCD_PIN_BL  28)  # 8080 LCD 背光引脚
 set(LCD_HOR_RES 480)    # LCD 横向最大分辨率
