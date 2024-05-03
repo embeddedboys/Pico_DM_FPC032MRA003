@@ -19,7 +19,7 @@ seo:
 ### 1. 安装前置依赖
 
 ```bash title="安装前置依赖"
-sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
+sudo apt install cmake ninja-build gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 ```
 
 ### 2. 下载 pico-sdk 源码

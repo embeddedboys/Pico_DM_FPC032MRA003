@@ -28,7 +28,7 @@ git submodule update --init
 
 !!! note "小贴士"
 
-    本工程基于[https://github.com/embeddedboys/pico_dm_8080_template](https://github.com/embeddedboys/pico_dm_8080_template)，这是一个基于树莓派Pico开发的针对于8080 TFT的通用型工程，只需要简单的配置，或轻量的代码开发，就能适配一个全新的组合。
+    本工程基于[pico_dm_8080_template](https://github.com/embeddedboys/pico_dm_8080_template)，这是一个基于树莓派Pico开发的针对于8080 TFT的通用型工程，只需要简单的配置，或轻量的代码开发，就能适配一个全新的组合。 同时这也是我们的主线开发工程，最新的特性都会在本工程中先进行实验。
 
 根目录结构
 ```shell
@@ -67,15 +67,61 @@ tft_st7789.c # st7789 显示驱动
 tsc2007.c   # tsc2007 电阻触摸屏驱动
 ```
 
-编译生成固件
+**1. 拉取代码**
 
-```shell
+```bash
+git clone https://gitee.com/embeddedboys/pico_dm_fpc032mra003_freertos
 cd pico_dm_fpc032mra003_freertos
+git submodule update --init
+```
 
+**2. 选择分支**
+
+对于lvgl v8.3版本
+```bash
+./scripts/switch_branch.sh main
+```
+对于lvgl v9版本
+```bash
+./scripts/switch_branch.sh v9
+```
+
+用法：
+```bash
+Usage: ./scripts/switch_branch.sh <branch_name>
+    Available branches:
+    - main
+    - HEAD -> origin/main
+    - main
+    - v9
+    - v9
+```
+
+3. 编译生成固件
+
+手动进行编译
+```bash
 mkdir -p build
 cd build
-cmake ..
-make -j12
+cmake .. -G Ninja
+ninja
+```
+
+或使用自动编译脚本，仅linux平台
+```bash
+./compile.sh
+```
+
+4. 烧录
+
+手动执行命令
+```bash title="位于build目录下"
+openocd -f interface/cmsis-dap.cfg -c "adapter speed 5000" -f target/rp2040.cfg -s tcl -c "program src/rp2040-freertos-template.elf verify reset exit"
+```
+
+或使用自动部署脚本，仅linux平台
+```bash
+./scripts/deploy.sh
 ```
 
 ### MicroPython
@@ -111,6 +157,20 @@ make -C ports/rp2 BOARD=PICO submodules
 make -j -C mpy-cross
 make -j -C ports/rp2 BOARD=PICO DISP_BOARD=PICO_DM_FPC032MRA003 USER_C_MODULES=../../lib/lv_bindings/bindings.cmake
 ```
+
+或者执行工程根目录下`build.sh`脚本，仅linux平台
+```bash
+./build.sh
+```
+
+在编译步骤最后一部中，指定`DISP_BOARD`参数，选择对应的显示拓展板，比如
+```bash
+make -j -C ports/rp2 BOARD=PICO DISP_BOARD=PICO_DM_FPC032MRA003 USER_C_MODULES=../../lib/lv_bindings/bindings.cmake
+```
+选择的是本项目的`PICO_DM_FPC032MRA003`拓展板
+
+该参数对应工程[lv_binding_micropython](https://github.com/embeddedboys/lv_binding_micropython)，是`lv_micropython`的一个用户模块，其`release/v8`或`release/v9`分支，`driver/rp2`目录下有对应的拓展板级驱动文件，如下图所示：
+
 
 ## 烧录
 
