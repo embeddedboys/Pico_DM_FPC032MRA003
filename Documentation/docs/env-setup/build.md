@@ -97,7 +97,7 @@ Usage: ./scripts/switch_branch.sh <branch_name>
     - v9
 ```
 
-3. 编译生成固件
+**3. 编译生成固件**
 
 手动进行编译
 ```bash
@@ -112,7 +112,7 @@ ninja
 ./compile.sh
 ```
 
-4. 烧录
+**4. 烧录**
 
 手动执行命令
 ```bash title="位于build目录下"
@@ -169,8 +169,12 @@ make -j -C ports/rp2 BOARD=PICO DISP_BOARD=PICO_DM_FPC032MRA003 USER_C_MODULES=.
 ```
 选择的是本项目的`PICO_DM_FPC032MRA003`拓展板
 
-该参数对应工程[lv_binding_micropython](https://github.com/embeddedboys/lv_binding_micropython)，是`lv_micropython`的一个用户模块，其`release/v8`或`release/v9`分支，`driver/rp2`目录下有对应的拓展板级驱动文件，如下图所示：
+该参数会决定工程[lv_binding_micropython](https://github.com/embeddedboys/lv_binding_micropython)中对应的显示拓展板驱动是否启用，`lv_binding_micropython`的一个MicroPython用户模块，由LVGL官方开发，其`release/v8`或`release/v9`分支，`driver/rp2`目录下有我们编写的的拓展板驱动文件，如下图所示：
 
+<figure markdown="span">
+  ![Image title](../assets/lv_binding_micropython.png){ loading=lazy }
+  <figcaption>拓展板驱动文件并非由官方维护</figcaption>
+</figure>
 
 ## 烧录
 
@@ -276,6 +280,11 @@ set(LCD_DRV_USE_ILI9806 0)
 set(LCD_DRV_USE_R61581  1)  # 启用R61581显示驱动
 set(LCD_DRV_USE_ST6201  0)
 set(LCD_DRV_USE_1P5623  0)
+```
+
+#### 设置显示buffer大小
+```cmake title="src/CMakeLists.txt"
+math(EXPR MY_DISP_BUF_SIZE "${LCD_HOR_RES} * ${LCD_VER_RES} / 10")
 ```
 
 ### 选择触摸驱动
