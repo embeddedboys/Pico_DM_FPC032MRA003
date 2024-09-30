@@ -46,6 +46,7 @@ theme:
   #   - toc.integrate
 
 nav:
+    - 论坛: http://forum.embeddedboys.com
     - 主页: README.md
     - 快速上手:
       - '版型介绍': get-started/example.md
@@ -128,6 +129,7 @@ plugins:
           build: true
           site_name: "Pico_DM_FPC032MRA003"
           nav_translations:
+            论坛: Forum
             主页: Home
             快速上手: get started
             配件: Parts
