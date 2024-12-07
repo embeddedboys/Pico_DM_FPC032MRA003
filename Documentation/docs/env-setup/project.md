@@ -20,6 +20,20 @@ seo:
 
 ## 基于PICO-SDK的
 
+### 裸机版本
+
+基于 Pico-SDK 开发的裸机工程
+
+国内用户
+```
+git clone https://gitee.com/embeddedboys/pico_dm_fpc032mra003_noos.git
+```
+
+```shell
+git clone https://github.com/embeddedboys/pico_dm_fpc032mra003_noos.git
+```
+
+
 ### FreeRTOS 版本
 
 与裸机版本不同的是，我们又在其上面添加了FreeRTOS的支持，同时该工程支持SMP，可同时使用RP2040的两个核心处理任务，如果您惯用FreeRTOS开发，可以选择本工程。
