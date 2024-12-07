@@ -26,12 +26,6 @@
 
 <h3 align="center">隆重的向大家介绍 <strong>Pico_DM_FPC032MRA003</strong>, 这是一款基于树莓派 Pico 核心板设计的一款低成本显示拓展板，分辨率为480x320，专用于学习、评估、开发LVGL或其他GUI应用。</h3>
 
-<h3 align="center">文档还在持续更新中，如果更新不够及时，可以先临时参考另外一个项目的文档</h3>
-
-<div align="center">
-<a href="http://embeddedboys.com/Pico_DM_QD3503728">http://embeddedboys.com/Pico_DM_QD3503728</a>
-</div>
-
 <!-- <div style="font-size:16px;">
 &nbsp&nbsp&nbsp&nbspPico_DM_FPC032MRA003 是 XXXXX
 </div> -->
