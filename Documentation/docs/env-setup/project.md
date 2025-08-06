@@ -18,9 +18,7 @@ seo:
 
 我们会在下个章节中讨论编译及配置问题。
 
-## 基于PICO-SDK的
-
-### 裸机版本
+### 裸机
 
 基于 Pico-SDK 开发的裸机工程
 
@@ -34,7 +32,7 @@ git clone https://github.com/embeddedboys/pico_dm_fpc032mra003_noos.git
 ```
 
 
-### FreeRTOS 版本
+### FreeRTOS
 
 与裸机版本不同的是，我们又在其上面添加了FreeRTOS的支持，同时该工程支持SMP，可同时使用RP2040的两个核心处理任务，如果您惯用FreeRTOS开发，可以选择本工程。
 
@@ -43,9 +41,17 @@ git clone https://github.com/embeddedboys/pico_dm_fpc032mra003_noos.git
 git clone https://gitee.com/embeddedboys/pico_dm_fpc032mra003_freertos.git
 ```
 
+国外用户
 ```shell
 git clone https://github.com/embeddedboys/pico_dm_fpc032mra003_freertos.git
 ```
+
+### USB Display
+
+```bash
+git clone https://github.com/embeddedboys/pico_dm_fpc032mra003_udd.git
+```
+
 
 ### 独立于本项目的通用工程
 
@@ -83,12 +89,10 @@ git clone https://github.com/embeddedboys/pico_dm_8080_template
 
 -----------------------------
 
-## 其他版本
-
  😋 我们正在开发中，包括但不限于如下工程：
 
 - [x] Micropython
-- [ ] Arduino
+- [x] Arduino
 - [ ] Nuttx
 
 ### Micropython

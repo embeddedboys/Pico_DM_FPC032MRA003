@@ -15,21 +15,7 @@
 
 </br>
 
-> <h1 align="center"><strong>"最具性价比的LVGL开发板之一"</strong></h1>
-
-<!-- 这里可以放项目的预览图 -->
-
-<!-- ## <h2 align="center">简介</h2> -->
-
-<!-- 有关项目的简短介绍 -->
-<!-- > <h3 align="center" ><strong>Pico_DM_FPC032MRA003</strong></h3> -->
-
-<h3 align="center">隆重的向大家介绍 <strong>Pico_DM_FPC032MRA003</strong>, 这是一款基于树莓派 Pico 核心板设计的一款低成本显示拓展板，分辨率为480x320，专用于学习、评估、开发LVGL或其他GUI应用。</h3>
-
-<!-- <div style="font-size:16px;">
-&nbsp&nbsp&nbsp&nbspPico_DM_FPC032MRA003 是 XXXXX
-</div> -->
-
+<h3><strong>Pico_DM_FPC032MRA003</strong>是一款基于树莓派 Pico 核心板设计的一款低成本显示拓展板，分辨率为480x320，专用于学习、评估、开发LVGL或其他GUI应用。</h3>
 
 ## <h2 align="center">实机演示</h2>
 <!-- 快速简短的GIF玩法展示 -->
@@ -43,14 +29,13 @@
 
 <!-- 有关设备资源的表格 -->
 
-| 组件       | 型号                          |
-|------------|-------------------------------|
-| 系统       | FreeRTOS SMP             |
-| 核心板        | 树莓派Pico |
-| 屏幕       | 3.2寸 R61581 非IPS      |
+| 组件   | 型号                 |
+|--------|----------------------|
+| 核心板 | 树莓派Pico类开发板   |
+| 屏幕   | 3.2寸 R61581 非IPS   |
 | 触摸屏 | 3.2寸 TSC2007 电阻屏 |
-| 背光 | MP3302D |
-| GPIO | GP8 ~ GP15 |
+| 背光   | MP3302D              |
+| GPIO   | GP8 ~ GP15           |
 
 
 ## <h2 align="center">许可证</h2>
